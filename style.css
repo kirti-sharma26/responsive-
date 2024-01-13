@@ -1,0 +1,76 @@
+/* PROUDLY DEVLOPED BY KIRTI SHARMA 22112017 */
+body{
+    margin: 0px;
+    color: white;
+}
+.black{
+    background-color: black;
+}
+.nav-bar{
+    margin: 0px;
+    display: flex;
+    font-size: 1.5em;
+}
+
+li{
+    list-style: none;
+    padding: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.push{
+    margin-left: auto;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.cover{
+    font-size: 2rem;
+    display: flex;
+    border-radius: 0px;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: black;
+
+
+}
+.cover > img{
+    width: fit-content;
+}
+
+.grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+.box{
+    background-color: black;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 10px;
+    font-size: 4em;
+    text-align: center;
+}
+.box > img{
+    width: 100%;
+}
+
+.box :hover{
+
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+}
+footer{
+    text-align: center;
+    border-radius: 0px;
+    font-size: 2rem;
+}
